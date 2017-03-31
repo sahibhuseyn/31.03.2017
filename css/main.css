@@ -1,0 +1,43 @@
+/*
+Error: Invalid CSS after "$font_family:": expected expression (e.g. 1px, bold), was ".row{"
+        on line 6 of C:\Users\P1011\Desktop\test\31.03.2017\css\main.scss
+
+1: $main_color:#fff;
+2: $second_color:#cee002;
+3: $third_color:#000;
+4: $fourth_color:#666666;
+5: $font_family:
+6: .row{
+7: 	border:1px solid grey;
+8: }
+9: [class*="col"]{
+10: 		border:1px solid grey;
+11: }
+
+Backtrace:
+C:\Users\P1011\Desktop\test\31.03.2017\css\main.scss:6
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1165:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/script/lexer.rb:220:in `expected!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:573:in `assert_expr'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:62:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1027:in `sass_script'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:607:in `variable'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:660:in `block_child'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:653:in `block_contents'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:117:in `stylesheet'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:42:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:393:in `_to_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:18:in `load'
+C:/Program Files (x86)/Koala/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"$font_family:\": expected expression (e.g. 1px, bold), was \".row{\"\A         on line 6 of C:\Users\P1011\Desktop\test\31.03.2017\css\main.scss\A \A 1: $main_color:#fff;\A 2: $second_color:#cee002;\A 3: $third_color:#000;\A 4: $fourth_color:#666666;\A 5: $font_family:\A 6: .row{\A 7: 	border:1px solid grey;\A 8: }\A 9: [class*=\"col\"]{\A 10: 		border:1px solid grey;\A 11: }"; }
